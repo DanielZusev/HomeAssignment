@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employee Test Suite">
+    <listeners>
+        <listener class-name="org.example.utils.listeners.TestListener"/>
+        <listener class-name="org.example.utils.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="APITests" preserve-order="true">
+        <classes>
+            <class name="employeesTests.GetAllEmployeesTests"/>
+            <class name="employeesTests.PostNewEmployeeTests"/>
+            <class name="employeesTests.GetSpecificEmployeeTests"/>
+        </classes>
+    </test>
+</suite>
