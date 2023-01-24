@@ -1,6 +1,6 @@
 Daniel Zusev Home Assignment 
 
-run ``mvn compile``
+run ``mvn install``
 
 run ``mvn clean test``
 
